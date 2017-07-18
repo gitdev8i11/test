@@ -1,0 +1,33 @@
+$ mkdir learngit
+$ cd learngit
+$ pwd
+
+$ git init
+
+$ git add git.txt git01.txt
+$ git commit -m "add file git"
+
+$ git cat git.txt
+
+$ git status
+
+$ git diff git.txt
+
+$ git log
+$ git log --pretty=oneline
+
+$ git reset --hard HEAD^
+$ git reset --hard HEAD^^
+$ git reset --hard 3628164
+$ git reflog
+
+$ git checkout -- student.txt
+
+$ rm fordelete.txt
+$ git rm fordelete.txt
+$ git commit -m "delete file fordelete"
+
+$ git remote add origin https://github.com/gitdev8i11/test.git
+$ git push -u origin master
+$ git push origin master --force
+$ git pull -rebase origin master
